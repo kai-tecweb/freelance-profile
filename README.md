@@ -7,6 +7,16 @@
 
 ---
 
+## ⚡ RAG / LLM 実装ハイライト
+
+- RAGパイプライン（OpenAI Embedding + Supabase pgvector + コサイン類似度検索）をLaravelでフルスクラッチ実装
+- EmbeddingService / RagService を独立モジュールとして設計し、マルチテナント対応のナレッジ検索基盤を構築
+- AI工房（ai-koubo.com）：Claude APIを活用したドキュメント処理・LLM回答生成を本番稼働中
+- AI買取査定システム（PM）：AI画像解析・AI-OCR・LLMを組み合わせたマルチモーダルAIパイプラインを主導
+- AFA：YOLO + ByteTrackによるサッカー映像AI解析を本番稼働中
+
+---
+
 ## 🛠 Tech Stack
 
 **バックエンド / Web**
@@ -34,6 +44,8 @@
 **AI / 自動化**
 - Anthropic Claude API / OpenAI / Gemini / Stability AI
 - AI画像解析 / AI-OCR / LLM実装
+- RAGパイプライン（OpenAI Embedding + Supabase pgvector + コサイン類似度検索）
+- EmbeddingService / RagService フルスクラッチ実装
 - Playwright / LINE Bot / Twilio / ElevenLabs
 - Deepgram / AssemblyAI(音声処理)
 
@@ -117,7 +129,7 @@
 
 | プロジェクト | 概要 | スタック |
 |---|---|---|
-| **AI工房** (ai-koubo.com) | 中小企業向けAI SaaS。Gmail統合・議事録・翻訳・画像生成など | Next.js + Supabase + Claude API + Stripe |
+| **AI工房** (ai-koubo.com) | RAG・LLM活用の中小企業向けAI SaaS。OpenAI Embedding + Supabase pgvectorによるRAGパイプライン実装済み。Gmail統合・議事録・翻訳・画像生成 | Next.js + Supabase + Claude API + Stripe |
 | **EagleEye** | Instagram自動投稿・ストーリー生成システム | Laravel + LINE Bot + GPT + Stripe |
 | **MailHunter** | 法人クロール＋AI自動メール送信 | Anthropic SDK + Gemini |
 | **AI受電システム** | 音声クローン活用のAI電話対応 | Twilio + ElevenLabs + GPT-4o |

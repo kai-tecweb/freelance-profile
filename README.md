@@ -5,6 +5,12 @@
 
 エンタープライズ領域でのPM/PL経験(最大200名規模)と、自社SaaSのフルスタック開発・運用を両輪で提供しています。受託(SES/業務システム)とAI・自動化SaaS開発の双方に対応可能です。
 
+**受賞・登壇・出版**
+- 2026年度 SMB Expert企業賞 システム開発部門
+- Kindle『システムは、現場でつくる』出版(2026.09)
+- ランサーズ主催 Claude Codeワークショップ講師(2026.06)
+- ITトレンドEXPO 2026 Summer出展
+
 ---
 
 ## ⚡ RAG / LLM 実装ハイライト
@@ -121,6 +127,30 @@
 - **担当範囲**: 帳票改修、バッチ処理新規作成、基幹システム連携改修、エンドクライアント含む3社ヒアリング 〜 設計 〜 コーディング
 - **使用技術**: Java / Oracle / SVF
 
+### BtoB SaaS企業H社 — 顧客管理・名刺OCR・感情分析SaaS
+**役割: 開発担当｜期間: 2026.08〜**
+
+BtoB向けCRM SaaSをAWS基盤でフルスクラッチ開発。名刺OCR、問い合わせ感情分析、企業自動リサーチ、Stripeセルフサーブ契約までを一気通貫で構築。
+
+- **担当範囲**: 要件定義 〜 設計 〜 開発 〜 運用保守
+- **使用技術**: AWS(ECS Fargate / RDS PostgreSQL / Cognito / Bedrock / CDK)、Stripe、Tavily API
+
+### 美容医療クリニック向けI社 — 動画切り抜きSaaS
+**役割: 開発担当｜期間: 2026〜**
+
+動画素材をアップロードすると、Whisperで文字起こしし、GPT-4oがショート動画候補を提案、テロップ編集まで行えるSaaSを本番構築。医療広告NGワードのチェック機能を含む。
+
+- **担当範囲**: 要件定義 〜 設計 〜 開発 〜 本番運用
+- **使用技術**: Next.js / TypeScript / ffmpeg / OpenAI API / さくらVPS + Cloudflare + R2
+
+### 教育系J社 — 語学学習者マッチングプラットフォーム
+**役割: 開発担当｜期間: 2026〜**
+
+学習者・教師・管理者の3種ユーザーが使う、即時マッチング型の語学学習マッチングサービスを新規構築。ビデオ通話連携・報酬集計・複数ログイン方式に対応。
+
+- **担当範囲**: 要件定義 〜 設計 〜 開発 〜 本番公開
+- **使用技術**: Laravel / React / Inertia.js / さくらVPS / Cloudflare
+
 ---
 
 ## 🚀 自社開発 / SaaS プロダクト
@@ -134,6 +164,8 @@
 | **MailHunter** | 法人クロール＋AI自動メール送信 | Anthropic SDK + Gemini |
 | **AI受電システム** | 音声クローン活用のAI電話対応 | Twilio + ElevenLabs + GPT-4o |
 | **threads-control-center** | Threadsデスクトップ運用アプリ | FastAPI + Playwright + Pywebview |
+| **Threado** | Threads投稿自動化(β運用中、アフィリエイト管理機能付き) | Node.js + PostgreSQL + Stripe |
+| **TrendCatch** | TikTok Shopドロップシッピング自動化 | CJ Dropshipping API連携 |
 
 ### SaaS・業務システム
 
@@ -144,6 +176,9 @@
 | **culmino** | CRM / トレーニング管理 | Laravel + Inertia/Vue + PrimeVue + Reverb |
 | **simple-invoice** | 請求書管理 + Stripe決済 | React/Vite + Stripe |
 | **守成クラブ名刺管理** | 名刺データ管理システム | React + Node.js/Express |
+| **いきなりHP** (ikinarihp.com) | 音声回答からAIがLP自動生成するスマホ専用SaaS | Next.js + Laravel/PHP + さくらVPS |
+| **AIKOBOMall** | AI関連プロダクトのモール型ECサイト | Laravel + React + Square決済 |
+| **MangaLoop** (mangaloop.jp) | 漫画LP自動生成・A/Bテスト基盤 | Next.js + MySQL + BullMQ |
 
 ### 長期運用・公共系
 

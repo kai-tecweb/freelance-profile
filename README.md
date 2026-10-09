@@ -151,6 +151,32 @@ BtoB向けCRM SaaSをAWS基盤でフルスクラッチ開発。名刺OCR、問�
 - **担当範囲**: 要件定義 〜 設計 〜 開発 〜 本番公開
 - **使用技術**: Laravel / React / Inertia.js / さくらVPS / Cloudflare
 
+### EC/メーカー系K社 — ブランドサイト＋店舗・代理店向け動的基盤
+**役割: 開発担当｜期間: 2026〜**
+
+製品紹介の静的サイトと、レビュー・店舗カタログ・決済・代理店階層管理を備えた動的基盤を2系統で構築。動画自動生成からSNS投稿までの導線も実装。
+
+- **担当範囲**: 要件定義 〜 設計 〜 開発
+- **使用技術**: Laravel / Inertia.js / React / Stripe
+
+### 旅行業界系L社 — OTA在庫連携・チャネルマネジメント
+**役割: 開発担当｜期間: 2026〜**
+
+GetYourGuide/Klook/Viatorなど複数OTAの在庫・レビューを日次取得する連携ツールと、JTB BÓKUN経由のチャネル接続(Klook・Airbnb)を構築。
+
+- **担当範囲**: 要件定義 〜 開発
+- **使用技術**: 外部API連携 / Googleスプレッドシート出力
+
+### 食品業界系M社 — 原価・レシピ管理システム
+**役割: 開発担当｜期間: 2026〜**
+
+1,000品超のメニューの表記ゆれ整理と、3段階の仕入単価更新に対応した原価・レシピ管理システムを構築。
+
+- **担当範囲**: 要件定義 〜 設計 〜 開発
+
+### その他の小規模案件
+コーポレートサイト制作(静的1ページ、永続保守契約)、LINE公式アカウントのリッチメニュー制作・設定(複数社)、基幹システムのテスト工程参画(Oracle/Amazon Workspaces)など。
+
 ---
 
 ## 🚀 自社開発 / SaaS プロダクト
@@ -166,6 +192,8 @@ BtoB向けCRM SaaSをAWS基盤でフルスクラッチ開発。名刺OCR、問�
 | **threads-control-center** | Threadsデスクトップ運用アプリ | FastAPI + Playwright + Pywebview |
 | **Threado** | Threads投稿自動化(β運用中、アフィリエイト管理機能付き) | Node.js + PostgreSQL + Stripe |
 | **TrendCatch** | TikTok Shopドロップシッピング自動化 | CJ Dropshipping API連携 |
+| **いいね分析ツール** | Threadsいいね収集→Excel化。R2経由の自動パッチ配布で保守運用中 | Ruby/Sinatra + Playwright + Cloudflare R2 |
+| **aio-monitor** | AIO/GEO監視(複数AIエンジンの言及率・引用率を計測) | OpenRouter経由マルチエンジン |
 
 ### SaaS・業務システム
 
@@ -194,6 +222,22 @@ BtoB向けCRM SaaSをAWS基盤でフルスクラッチ開発。名刺OCR、問�
 | **POSL** | SNS自動運用システム(シリーズ5製品) | Express + OpenAI / Laravel + Remotion |
 | **AFA** | サッカー映像AI解析(選手トラッキング・シュート検出) | Laravel + YOLO + React |
 | **OcrMaster** | レシートOCR(AWS/Azure/GCP併用) | Laravel + Inertia/React |
+
+### 開発中・プレローンチ
+
+| プロジェクト | 概要 | スタック |
+|---|---|---|
+| **posurisu.com** | Instagram自動化SaaS(インサイト分析→企画→画像生成→予約投稿) | Next.js + FastAPI + さくらVPS |
+| **思い出マップ** | 写真・動画を地図ピンに紐づけるブック型アルバムPWA | React + Node/Express + Mapbox |
+
+### 個人ツール・検証基盤
+
+| プロジェクト | 概要 | スタック |
+|---|---|---|
+| **MetaPilot** | 広告実績レポート自動集計ツール | - |
+| **R∞PC** | 中古PC販売支援(販売パートナー向け) | - |
+| **FX検証基盤** | MT5自動売買のバックテスト・実験管理基盤。600超パターンを検証し統計的優位性を検証する基盤として構築(売買ロジックの提供ではない) | Python |
+| **ses-jv.jp** | 自社コーポレートサイト(47ページ超)。GEO/SEO診断・構造化データ統合・AI Lab運用 | 静的サイト + 各種診断ツール |
 
 ---
 
